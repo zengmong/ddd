@@ -1,0 +1,240 @@
+<！doctype html>
+<html lang =“ zh-cn”>
+<头>
+    <meta charset =“ utf-8”>
+    <meta name =“ viewport” content =“ width =设备宽度，初始尺度= 1.0”>
+    <title>魔方隐私政策</title>
+    <样式>
+        / *基础样式 */
+        ：根{
+            - 主要色：＃333;
+            - 次级色：＃555;
+            - 彩色：007bff;
+            -bg-color：＃f9f9f9;
+            -Card-bg：#fff;
+            - 边界色：#eee;
+            - 头高：60px;
+            - 法尺：16px;
+        }
+        
+        * {
+            保证金：0;
+            填充：0;
+            盒子大小：边框框；
+            字体家庭： - 苹果系统，Blinkmacsystemfont，“ Segoe UI”，Roboto，Helvetica，Arial，Sans-Serif；
+        }
+        
+        身体{
+            背景色：var（-bg-color）;
+            颜色：var（ -主要色）;
+            线高：1.7;
+            字体大小：var（ -字体大小）;
+            填充底：60px;
+        }
+        
+        。容器{
+            最大宽度：800px;
+            保证金：0 自动；
+            填充：0 20px;
+        }
+        
+        / *头部样式 */
+        标头{
+            位置：固定；
+            顶部：0;
+            左：0;
+            右：0;
+            高度：var（ -标头高）;
+            背景色：var（-card-bg）;
+            盒子阴影：0 1PX 3PX RGBA（0,0,0,0.1）;
+            显示：Flex;
+            align-items: center;
+            padding: 0 20px;
+            z-index: 100;
+        }
+        
+        .header-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+        
+        /* 主要内容样式 */
+        main {
+            margin-top: var(--header-height);
+            padding: 20px 0;
+        }
+        
+        .policy-title {
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+            margin: 20px 0 30px;
+            color: var(--primary-color);
+        }
+        
+        .policy-subtitle {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin: 30px 0 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .policy-section {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            padding: 25px;
+            margin-bottom: 25px;
+        }
+        
+        .policy-paragraph {
+            margin-bottom: 15px;
+            color: var(--secondary-color);
+        }
+        
+        .policy-list {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .policy-list li {
+            margin-bottom: 8px;
+            color: var(--secondary-color);
+        }
+        
+        .policy-list strong {
+            color: var(--primary-color);
+        }
+        
+        .contact-info {
+            margin-top: 20px;
+            color: var(--secondary-color);
+        }
+        
+        .company-info {
+            text-align: center;
+            margin: 30px 0;
+            font-size: 14px;
+            color: #888;
+        }
+        
+        .effective-date {
+            text-align: right;
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 20px;
+        }
+        
+        /* 响应式适配 */
+        @media (max-width: 600px) {
+            :root {
+                --font-size: 15px;
+            }
+            
+            .policy-title {
+                字体大小：20px;
+            }
+            
+            .policy-subtitle {
+                字体大小：18px;
+            }
+            
+            。
+                填充：20px 15px;
+            }
+        }
+    </style>
+</head>
+<身体>
+    <Header>
+        <div class =“容器”>
+            <div class =“ header-title”>魔方隐私政策</div>
+        </div>
+    </header>
+    
+    <main class="container">
+        <div class="effective-date">生效日期：[具体日期]</div>
+        
+        <div class="policy-section">
+            <h1 class="policy-title">魔方隐私政策</h1>
+            <p class="policy-paragraph">欢迎使用由成都寒蝉科技有限公司（以下简称"我们"）开发的"魔方"软件（以下简称"本软件"）！我们深知个人信息对您的重要性，会严格遵守相关法律法规，全力保护您的个人信息安全。在使用本软件前，请您认真阅读并充分理解本隐私政策。如有任何疑问、意见或建议，您可通过 <strong>grievanc_officer@163.com</strong> 与我们联系。本软件已获得软件著作权登记，登记号为：<strong>2022SR1564989</strong>。</p>
+        </div>
+        
+        <div class =“策略表”>
+            <h2 class =“ policy-subtitle”> 一、引言 </h2>
+            <p class =“ polition-paragraph”>本隐私政策适用于您使用本软件的全部过程，详细阐述了我们如何收集、使用、存储、共享和保护您的个人信息。</p>
+        </div>
+        
+        <div class =“策略表”>
+            <h2 class =“ policy-subtitle”> 二、我们如何收集和使用您的个人信息 </h2>
+            <p class =“ polition-paragraph”> sdk （由北京巨量引擎网络技术有限公司提供）用于广告投放
+            <ul class =“策略列表”>
+                <li> <strong>设备与硬件信息</strong>：收集如IMEI，imei -md5，android ID，oaid idfa idfa idfa idfa idfv 、Imsi imsi i iccid liccid liccid liecid，meid，，以及设备品牌、型号、内存、操作系统版本等硬件参数，以及设备品牌、型号、内存、操作系统版本等硬件参数，目的是识别设备，目的是识别设备
+                <li> <strong>网络与应用信息</strong>：获取ip wifi wifi 列表、基站信息来推断您的位置，收集安装的应用列表及使用记录，用于分析您的行为偏好，优化广告推荐，</li>
+                <li> <strong>位置信息</strong>：在获得您授权后</strong>：通过gps 、蓝牙等获取精确位置；也会通过Ip wifi wifi或基站信息得到粗略位置，为基于地理位置的广告投放提供支持。</li>
+                <li> <strong>账号与使用行为信息</strong>：若您登录相关账号
+                <li> <strong>其他信息</strong>：收集sdk运行日志排查技术问题，保障服务稳定；收集广告展示信息，供广告主统计投放效果。</li>
+            </ul>
+        </div>
+        
+        <div class =“策略表”>
+            <h2 class =“ polition-subtitle”> 三、我们如何共享、转让、公开披露您的个人信息 </h2>
+            <ol class =“策略列表”>
+                <li> <strong>共</strong>：仅将您的个人信息共享给穿山甲广告sdk服务提供方北京巨量引擎网络技术有限公司
+                <li> <strong>转让</strong>：不会将您的个人信息转让给任何第三方，除非获得您明确同意。</li>
+                <li> <strong>公开披露</strong>：不会公开披露您的个人信息，法律法规要求或获您明确同意的情况除外。</li>
+            </ol>
+        </div>
+        
+        <div class =“策略表”>
+            <h2 class =“策略 -提交”> 四、我们如何保护您的个人信息 </h2>
+            在
+        </div>
+        
+        <div class =“策略表”>
+            <h2 class =“策略 -提交”> 五、您的权利 </h2>
+            <p class =“ porition-paragraph”> SDK收集处理
+            <ol class =“策略列表”>
+                <li> <strong>查阅权与更正权</strong>：
+                    <ul class =“策略列表”>
+                        <li> 直接通过穿山甲官方渠道（如用户服务平台、隐私设置等）提交请求，具体路径可查看其隐私政策或联系客服； </li>
+                        <li> <strong> greivanc_officer@163.com </strong>告知我们，我们协助转达需求并跟进处理进度。</li>
+                    </ul>
+                </li>
+                <li> <strong>删除权与撤回同意权</strong>：
+                    <ul class =“策略列表”>
+                        <li> 通过设备系统设置（如关闭位置权限、广告标识符权限等）撤回授权； </li>
+                        <li>如需彻底删除个人信息，可联系穿山甲或我们协助处理（可能影响广告展示效果，但不影响软件基本功能）。</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+        
+        <div class =“策略表”>
+            <h2 class =“策略 -提交”> 六、未成年人个人信息保护 </h2>
+            在
+        </div>
+        
+        <div class =“策略表”>
+            <h2 class =“策略 -提交”> 七、隐私政策的变更 </h2>
+            <p class =“ porition-agragraph”> 我们可能根据法律法规更新、业务发展等原因变更本隐私政策
+        </div>
+        
+        <div class =“策略表”>
+            <h2 class =“策略 -提交”> 八、联系我们 </h2>
+            <p class =“ contact-info”> 若您对本隐私政策或个人信息保护有疑问、意见或建议，可通过以下方式联系我们：</p>
+            <ul class =“策略列表”>
+                <li>邮箱：<strong> greivanc_officer@163.com </strong> </li>
+                <li>公司名称：<strong>成都寒蝉科技有限公司</strong> </li>
+            </ul>
+        </div>
+        
+        <div class =“ Company-Info”>
+            成都寒蝉科技有限公司
+        </div>
+    </main>
+</body>
+</html>
